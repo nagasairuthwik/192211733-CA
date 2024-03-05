@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int n1,n2,sub=0;
+	printf("enter the first number\n");
+	scanf("%d",&n1);
+	printf("enter the second number\n");
+	scanf("%d",&n2);
+	sub=n1-n2;
+	printf("subtraction=%d",sub);
+	return 0;
+}
