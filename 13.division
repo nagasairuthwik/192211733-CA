@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int n1,n2,division=0;
+	printf("enter the dividend\n");
+	scanf("%d",&n1);
+	printf("enter the divisor\n");
+	scanf("%d",&n2);
+	division=n1/n2;
+	printf("division=%d",division);
+	return 0;
+}
